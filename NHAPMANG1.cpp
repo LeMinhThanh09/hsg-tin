@@ -14,7 +14,7 @@ cin >> a[i];
 cout <<"Cac gia tri chan: "<<endl;
 for (int i=0; i<n;i++){
 if (a[i]%2 ==0){
-    cout << a[i]<<" "<<endl;
+    cout << a[i]<<"                                                 "<<endl;
 }
 }
     system("pause");
