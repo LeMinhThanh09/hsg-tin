@@ -15,6 +15,8 @@ for (int i=0; i<n; i++){
     tongB+=b[i];
     resultB =tongB;
 }
+/*resultA ban đầu bằng 0, cộng b[0,1,2] vào resultA , đồng thời lấy tongB trừ đi b[0] -> đến khi nào
+2 giá trị bằng nhau-> xuất phần tử tại đó 2 mảng bằng nhau */
 for (int i=0;i<n;i++){
     resultA+= b[i];
     resultB-=b[i];
